@@ -12,6 +12,8 @@ This method used for classification and regression.*
 We calculate distance of the query point to all other points in the space. This takes O(N) time for every point.
 If there are Q points then ###time complexity of algorithm is O(Q.N)
 
+<br>
+
 ## Details :
 Given a query point identify whether it is an apple or a lemon
 
@@ -22,10 +24,14 @@ Here I have created a 4000 data points for apple and lemon on the fact that:
 | Apples | Higher | Lower | Higher | Lower |
 | Lemons | Lower | Higher | Lower | Higher |
 
+<br>
+
 ## Scatter plot of these points
+<img  src = "https://github.com/codeboy47/K-nearest-neighbors/blob/master/Images/scatterPlot.JPG" />
+
+
+Then build my own K-nearest-neighbors algorithm and compare the accuracy with KNeighborsClassifier. In both the cases accuracy comes out to be 99.6%. 
 <img  src = "https://github.com/codeboy47/K-nearest-neighbors/blob/master/Images/scatterPlot.PNG" />
 
-
-Then build my own K-nearest-neighbors algorithm and compare the accuracy with KNeighborsClassifier. In both the cases accuracy comes out to be 98.8%. 
-
+<br>
 Note : I have used Euclidean Distance for calculating distance between two points.
