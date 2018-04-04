@@ -31,6 +31,7 @@ Here I have created a 4000 data points for apple and lemon on the fact that:
 
 
 Then build my own K-nearest-neighbors algorithm and compare the accuracy with KNeighborsClassifier. In both the cases accuracy comes out to be 99.6%. 
+<br>
 <img  src = "https://github.com/codeboy47/K-nearest-neighbors/blob/master/Images/accuracy.png" />
 
 <br>
