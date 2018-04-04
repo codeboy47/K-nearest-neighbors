@@ -10,8 +10,7 @@ This method used for classification and regression.*
 
 ## Algorithm:
 We calculate distance of the query point to all other points in the space. This takes O(N) time for every point.
-If there are Q points then 
-# time complexity of algorithm is O(Q.N)
+If there are Q points then ###time complexity of algorithm is O(Q.N)
 
 ## Details :
 Given a query point identify whether it is an apple or a lemon
@@ -23,7 +22,7 @@ Here I have created a 4000 data points for apple and lemon on the fact that:
 | Apples | Higher | Lower | Higher | Lower |
 | Lemons | Lower | Higher | Lower | Higher |
 
-# Scatter plot of these points
+## Scatter plot of these points
 <img  src = "https://github.com/codeboy47/K-nearest-neighbors/blob/master/Images/scatterPlot.PNG" />
 
 
