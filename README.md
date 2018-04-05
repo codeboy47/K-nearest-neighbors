@@ -9,8 +9,11 @@ This method used for classification and regression.*
 <br>
 
 ## Algorithm:
-We calculate distance of the query point to all other points in the space. This takes O(N) time for every point.
-If there are Q points then ###time complexity of algorithm is O(Q.N)
+1) Calculate distance of the query point to all other K points in the space. This takes O(N) time for every point.
+2) Sort the array and pick 1st k rows of sorted array.
+3) Return that label whose count(frequency of label) is more.
+
+If there are Q points then time complexity of algorithm is O(Q.N)
 
 <br>
 
