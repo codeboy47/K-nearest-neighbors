@@ -11,7 +11,7 @@ meanApple = np.array([7.0,8.0]) ## 2 features mean value of x(color) is 7.0 and 
 ## covariance matrix - Sigma(xy) means how changing x(color) will have effect on y(sweetness)
 ## so more red apples means they are more sweet so 0.5 deviation(sigma)
 
-covApple = np.array([[1.0,0.5],[0.5,1.0]])  ## 2 X 2 matrix
+covApple = np.array([[1.0,-0.5],[-0.5,1.0]])  ## 2 X 2 matrix
 
 
 distributionApple = np.random.multivariate_normal(meanApple,covApple,2000)  # 2000 apple pts
